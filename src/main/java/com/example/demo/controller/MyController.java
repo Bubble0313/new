@@ -72,7 +72,5 @@ public class MyController {
 	@PostMapping("/name")
 	public ResponseEntity<String> name(@RequestParam String fn, @RequestParam String ln){
 		return new ResponseEntity<String>("Your name is " + fn + " " + ln, HttpStatus.CREATED);
-	}*/
-	
-	
+	}*/	
 }
